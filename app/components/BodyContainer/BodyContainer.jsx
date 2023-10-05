@@ -8,18 +8,19 @@ import {
 const BodyContainer = () => {
   return (
     <>
-    <div>
-        <h2>Pablo García</h2>
-        <h3>Web Developer</h3>
-        <p>
-            Front End Developer
-        </p>
+    <div className='text-center p-10 '>
+        <h2 className='text-4xl py-2 text-teal-500 font-medium'>Pablo García</h2>
+        <h3 className='text-2xl py-2'> Front End Developer</h3>
+        
     </div>
-    <div>
+    <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
         <AiFillTwitterCircle />
         <AiFillLinkedin />
         <AiFillGithub />
     </div> 
+    <div>
+        <Image src={deved} />
+    </div>
     </>
   )
 }
