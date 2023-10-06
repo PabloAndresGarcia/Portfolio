@@ -4,6 +4,7 @@ import {
     AiFillLinkedin,    
     AiFillGithub}
     from 'react-icons/ai'
+import {FotoCV} from '../../../public/FotoCV.jpeg'
 
 const BodyContainer = () => {
   return (
@@ -18,9 +19,6 @@ const BodyContainer = () => {
         <AiFillLinkedin />
         <AiFillGithub />
     </div> 
-    <div>
-        <Image src={deved} />
-    </div>
     </>
   )
 }
