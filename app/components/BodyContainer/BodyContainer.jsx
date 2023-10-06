@@ -4,7 +4,8 @@ import {
     AiFillLinkedin,    
     AiFillGithub}
     from 'react-icons/ai'
-import {FotoCV} from '../../../public/FotoCV.jpeg'
+import Image from 'next/image'
+import FotoCV from '../../../public/FotoCV.png'
 
 const BodyContainer = () => {
   return (
@@ -15,9 +16,11 @@ const BodyContainer = () => {
         
     </div>
     <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-        <AiFillTwitterCircle />
         <AiFillLinkedin />
         <AiFillGithub />
+      </div>
+      <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+        <Image src={FotoCV} layout='fill' objectFit='cover'/>
     </div> 
     </>
   )
