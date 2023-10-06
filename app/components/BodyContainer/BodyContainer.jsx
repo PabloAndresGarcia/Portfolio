@@ -19,7 +19,7 @@ const BodyContainer = () => {
         <AiFillGithub />
     </div> 
     <div>
-        <Image src={deved} />
+        
     </div>
     </>
   )
