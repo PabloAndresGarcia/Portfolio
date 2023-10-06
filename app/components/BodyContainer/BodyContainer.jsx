@@ -17,9 +17,6 @@ const BodyContainer = () => {
         <AiFillTwitterCircle />
         <AiFillLinkedin />
         <AiFillGithub />
-    </div> 
-    <div>
-        
     </div>
     </>
   )
