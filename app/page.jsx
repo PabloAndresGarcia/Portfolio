@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Navbar from "./components/Navbar/Navbar"
 import BodyContainer from './components/BodyContainer/BodyContainer'
-
+import WhoIAm from "./components/AboutMe/WhoIAm"
 export default function Home() {
   return (
     <div>
@@ -15,6 +15,7 @@ export default function Home() {
       <section className="min-h-screen ">
         <Navbar />
         <BodyContainer />
+        <WhoIAm />
       </section>
 
     </main>
