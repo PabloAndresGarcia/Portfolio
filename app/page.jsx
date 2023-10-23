@@ -2,6 +2,9 @@ import Head from "next/head"
 import Navbar from "./components/Navbar/Navbar"
 import BodyContainer from './components/BodyContainer/BodyContainer'
 import WhoIAm from "./components/AboutMe/WhoIAm"
+import Tech from "./components/Tech/Tech"
+import Portfolio from "./components/Port/Portfolio"
+
 export default function Home() {
   return (
     <div>
@@ -16,6 +19,8 @@ export default function Home() {
         <Navbar />
         <BodyContainer />
         <WhoIAm />
+        <Tech />
+        <Portfolio />
       </section>
 
     </main>
