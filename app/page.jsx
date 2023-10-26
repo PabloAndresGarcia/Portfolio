@@ -22,7 +22,6 @@ export default function Home() {
         <Tech />
         <Portfolio />
       </section>
-
     </main>
     </div>
 
