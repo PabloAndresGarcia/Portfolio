@@ -11,4 +11,7 @@
   .card{
     @apply rounded-xl shadow-lg;
   }
+  .button{
+    @apply flex items-center justify-center gap-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-white font-semibold px-4 py-2 border-none rounded-md mt-4 hover:bg-gradient-to-l hover:from-cyan-800 hover:to-teal-800 focus:scale-95
+  }
 }

@@ -7,7 +7,7 @@ import Portfolio from "./components/Port/Portfolio"
 
 export default function Home() {
   return (
-    <div>
+    <div >
       <Head>
         <title>Pablo García Portfolio</title>
         <meta></meta>

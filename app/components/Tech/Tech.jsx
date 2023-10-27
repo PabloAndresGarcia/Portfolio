@@ -12,13 +12,11 @@ import wordpress from '../../../public/images/wordpress.png'
 import tailwind from '../../../public/images/tailwind.png'
 
 
-
-
 const Tech = () => {
   return (
     <>
     <h3 className='text-3xl py-5 mt-5'>Mis habilidades</h3>
-    <div className='grid md:grid-cols-3 grid-cols-1 gap-1 text-center'>
+    <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-1 text-center'>
         <div className='grid justify-center shadow-lg rounded-xl m-5'>
             <Image src={html} width={150} height={150} />
         </div>
